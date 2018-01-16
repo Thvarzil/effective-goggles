@@ -1,6 +1,19 @@
 
-.button {
 
+body{
+    background-color: antiquewhite;
+}
+
+
+.button {
+    /*Determines visual characteristics of the button*/
+    margin: 5px;
+    padding: 10px;
+    border-radius: 7px;
+    background: linear-gradient(to bottom right, rgba(0, 250, 154, 1), rgba(32, 178, 170, 0.5));
+
+    /*Determines characteristics of text on the button*/
+    text-decoration: none;
 }
 
 .focalPoint {
@@ -10,7 +23,9 @@
     align-content: center;
 
     /*Determines visual characteristics of the focalPoint*/
-    background-color: mintcream;
+    /*background-color: mintcream;*/
+    background-color: brown;
+    border-radius: 7px;
 
     /*Determines text characteristics of the focalPoint*/
     text-align: center;
@@ -18,7 +33,21 @@
 
 }
 
-.expander {
+.magnifier {
+    /*Determines placement of content within the magnifier */
+    margin: 15px;
+    padding: 10px;
+    align-content: left;
+
+    /*Determines visual characteristics of the magnifier*/
+    background-color: mintcream;
+    /*background-color: blue;*/
+    border-radius: 7px;
+
+    /*Determines text characteristics of the magnifier*/
+    text-align: left;
+    font-size: 14px;
+    color: darkgray;
 
 }
 
