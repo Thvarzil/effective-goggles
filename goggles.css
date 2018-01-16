@@ -1,0 +1,39 @@
+
+.button {
+
+}
+
+.focalPoint {
+    /*Determines placement of content within the focalPoint */
+    margin: 15px;
+    padding: 10px;
+    align-content: center;
+
+    /*Determines visual characteristics of the focalPoint*/
+    background-color: mintcream;
+
+    /*Determines text characteristics of the focalPoint*/
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.expander {
+
+}
+
+.case {
+
+}
+
+/*Below this line are conceptualized classes not currently in development
+Their descriptions are commented into their bodies.*/
+/*=============================================================*/
+
+/*.hardcase{*/
+/*A more rigid, enclosing version of .case: allows no overflow, no floating, no wrap. Child objects can only be displayed in block.*/
+/*}*/
+
+/*.softcase{*/
+/*The softer, more lenient version of .case: allows overflow, and has much less rigid rules about child objects.*/
+/*}*/
